@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
 
-function page() {
+function Page() {
 
     const [nie, setNie] = useState(false)
     const [empadronamiento, setEmpadronamiento] = useState(false)
@@ -86,7 +86,7 @@ function page() {
             <div id="empadronamiento" className='max-w-[600px]'>
             <h3 className='font-bold mb-10 text-xl'>¿Qué es el empadronamiento? ¿Para que lo necesito?</h3>
             <p><b>El empadronamiento en España indica residencia y domicilio habitual.</b> Se utiliza para certificar que vives en una determinada población de España.
-            Es "imprescindible" que hagas el trámite una vez que llegues al país.
+            Es &quot;imprescindible&quot; que hagas el trámite una vez que llegues al país.
             Para realizar el empadronamiento hay que dirigirse a la oficina correspondiente a la ciudad de España en donde estás viviendo.</p>
             <div className='mt-10 flex  gap-3'>
             <Link target='_blank' href='https://administracion.gob.es/pagFront/tramites/fichaTramite.htm?idTramiteSeleccionado=3485&idMateria=21&idBoletin=21'><button className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue rounded'>Comenzar el trámite</button></Link>
@@ -182,4 +182,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
