@@ -125,7 +125,7 @@ function Page() {
                   <h3 className='font-bold text-xl'>Documentos a llevar el día del trámite previamente completados:</h3>
                   <div className='my-10'>
                       <p className='mb-2'>Justificante de cita previa</p>
-                      <p className='mb-2'><a href='https://www.inclusion.gob.es/documents/410169/2156469/15-Formulario_NIE_y_certificados.pdf' target='_blank'>Formulario: "EX-15"</a></p>
+                      <p className='mb-2'><a href='https://www.inclusion.gob.es/documents/410169/2156469/15-Formulario_NIE_y_certificados.pdf' target='_blank'>Formulario: &quot;EX-15&quot;</a></p>
                       <p className='mb-2'><a href='https://sede.policia.gob.es:38089/Tasa790_012/ImpresoRellenar' target='_blank'>Boleto de pago de la tasa impositiva</a></p>
                       <p className='mb-2'>Pasaporte/DNI europeo</p>
                       <p>Fotocopia del pasaporte/DNI europeo</p>
