@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 function Hero() {
+
   return (
     <main className='h-[75vh] flex flex-col items-center justify-center bg-darkwhite'>
         <h1 className='mb-[30px] text-5xl font-bold'>Bienvenido a Trámites Europa</h1>

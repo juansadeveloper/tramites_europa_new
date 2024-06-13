@@ -89,8 +89,8 @@ function page() {
             Es "imprescindible" que hagas el trámite una vez que llegues al país.
             Para realizar el empadronamiento hay que dirigirse a la oficina correspondiente a la ciudad de España en donde estás viviendo.</p>
             <div className='mt-10 flex  gap-3'>
-            <Link target='_blank' href='https://administracion.gob.es/pagFront/tramites/fichaTramite.htm?idTramiteSeleccionado=3485&idMateria=21&idBoletin=21'><button className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue'>Comenzar el trámite</button></Link>
-            <button onClick={changeDocumentos2} className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue'>Ver documentación</button> 
+            <Link target='_blank' href='https://administracion.gob.es/pagFront/tramites/fichaTramite.htm?idTramiteSeleccionado=3485&idMateria=21&idBoletin=21'><button className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue rounded'>Comenzar el trámite</button></Link>
+            <button onClick={changeDocumentos2} className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue rounded'>Ver documentación</button> 
             </div>
             </div>
             : <div id="doc">
