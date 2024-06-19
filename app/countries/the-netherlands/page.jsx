@@ -49,7 +49,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Find Accommodation:</h2>
-          <p>ecure a place to live. Temporary accommodation may be necessary initially.</p>
+          <p>Secure a place to live. Temporary accommodation may be necessary initially.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Register Your Address (Anmeldung): </h2>
@@ -69,7 +69,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment: </h2>
-          <p>WIf you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>WIf you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
