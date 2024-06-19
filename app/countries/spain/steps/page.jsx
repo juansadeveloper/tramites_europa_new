@@ -62,7 +62,7 @@ function Page() {
   return (
     <main className='md:h-[75vh]'>
         <div className='flex flex-col md:flex-row lg:max-w-[1000px] lg:mx-auto items-center w-full h-full p-7 gap-20'>
-            <div className="w-full lg:max-w-[400px] flex flex-col items-center justify-center bg-gray-100 border p-7 rounded-lg shadow-lg">
+            <div className="w-full md:max-w-[400px] flex flex-col items-center justify-center bg-gray-100 border p-7 rounded-lg shadow-lg">
                 <h1 className='mb-10 font-bold'>Pasos a seguir</h1>
                 <div className='flex flex-col items-center gap-5 w-full max-w-[250px]'>
                     <button onClick={changeEmpadronamiento}  className={empadronamiento ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>Empadronamiento</button>
