@@ -4,7 +4,8 @@ import Link from 'next/link';
 function Page() {
   return (
     <main className='min-h-[75vh] text-center flex flex-col justify-center items-center px-4'>
-      <p className='mt-10'>Haz click para seleccionar el país</p>
+      <p className='mt-10 max-lg:hidden'>Haz click para seleccionar el país</p>
+      <p className='mt-10 lg:hidden'>Selecciona el país</p>
       <div className='grid gap-3 max-w-[940px] m-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center my-[40px]'>
         <Link href="/countries/spain"><button className='font-light text-blue border border-blue hover:text-darkwhite hover:bg-blue w-full sm:min-w-[150px] py-3'>España</button></Link>
         <Link href="/countries/the-netherlands"><button className='font-light text-blue border border-blue hover:text-darkwhite hover:bg-blue w-full sm:min-w-[150px] py-3'>Países bajos</button></Link>

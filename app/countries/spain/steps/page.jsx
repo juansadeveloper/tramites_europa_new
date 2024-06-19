@@ -60,16 +60,16 @@ function Page() {
     }
 
   return (
-    <main className='h-[75vh]'>
-        <div className='flex items-center w-full h-full p-7 gap-20'>
-            <div className='h-full w-full max-w-[450px] bg-container border flex flex-col items-center justify-center'>
+    <main className='md:h-[75vh]'>
+        <div className='flex flex-col md:flex-row lg:max-w-[1000px] lg:mx-auto items-center w-full h-full p-7 gap-20'>
+            <div className="w-full lg:max-w-[400px] flex flex-col items-center justify-center bg-gray-100 border p-7 rounded-lg shadow-lg">
                 <h1 className='mb-10 font-bold'>Pasos a seguir</h1>
                 <div className='flex flex-col items-center gap-5 w-full max-w-[250px]'>
-                    <button onClick={changeEmpadronamiento}  className={empadronamiento ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue ' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue '}>Empadronamiento</button>
-                    <button onClick={changeNie} className={nie ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue ' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue'}>NIE</button>
-                    <button onClick={changeSocial} className={social ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue ' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue'}>Nº Seguridad Social</button>
-                    <button onClick={changeCuenta} className={cuenta ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue ' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue'}>Cuenta Bancaria Española</button>
-                    <button onClick={changeSim} className={sim ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue ' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue'}>SIM Española</button>
+                    <button onClick={changeEmpadronamiento}  className={empadronamiento ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>Empadronamiento</button>
+                    <button onClick={changeNie} className={nie ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>NIE</button>
+                    <button onClick={changeSocial} className={social ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>Nº Seguridad Social</button>
+                    <button onClick={changeCuenta} className={cuenta ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>Cuenta Bancaria Española</button>
+                    <button onClick={changeSim} className={sim ? 'w-full py-3 px-5 font-light text-blue bg-white border border-blue rounded' : 'w-full py-3 px-5 font-light text-neutral-400 bg-white border  hover:text-blue rounded'}>SIM Española</button>
                 </div>
                 <p className='mt-10 cursor-pointer text-blue'>Preguntas frecuentes</p>
             </div>
@@ -89,8 +89,8 @@ function Page() {
             Es &quot;imprescindible&quot; que hagas el trámite una vez que llegues al país.
             Para realizar el empadronamiento hay que dirigirse a la oficina correspondiente a la ciudad de España en donde estás viviendo.</p>
             <div className='mt-10 flex  gap-3'>
-            <Link target='_blank' href='https://administracion.gob.es/pagFront/tramites/fichaTramite.htm?idTramiteSeleccionado=3485&idMateria=21&idBoletin=21'><button className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue rounded'>Comenzar el trámite</button></Link>
-            <button onClick={changeDocumentos2} className='px-5 py-3 border text-blue max-w-[200px] hover:border-blue rounded'>Ver documentación</button> 
+            <Link target='_blank' href='https://administracion.gob.es/pagFront/tramites/fichaTramite.htm?idTramiteSeleccionado=3485&idMateria=21&idBoletin=21'><button className='px-5 py-3 border hover:text-blue max-w-[200px]  rounded'>Comenzar el trámite</button></Link>
+            <button onClick={changeDocumentos2} className='px-5 py-3 border hover:text-blue max-w-[200px] rounded'>Ver documentación</button> 
             </div>
             </div>
             : <div id="doc">

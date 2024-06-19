@@ -1,3 +1,7 @@
 {
   "extends": "next/core-web-vitals"
 }
+
+
+//https://stuckoverflow.id/d/152-how-to-solve-parsing-error-cannot-find-module-next-babel-in-nextjs
+// Solved a problem using this information
