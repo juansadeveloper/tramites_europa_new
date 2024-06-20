@@ -29,7 +29,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, so it’s advisable to start looking early.</p>
+          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, so it&apos;s advisable to start looking early.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
@@ -65,7 +65,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
@@ -80,8 +80,8 @@ function Page() {
           <p>Familiarize yourself with the Dutch social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license.</p>
+          <h2 className="font-bold">Driver&apos;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver&apos;s license.</p>
         </div>
       </div>
     )
@@ -118,3 +118,4 @@ function Page() {
 }
 
 export default Page;
+

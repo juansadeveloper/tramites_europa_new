@@ -9,7 +9,7 @@ function Page() {
       <div className="flex flex-col items-start gap-5 w-full md:px-20 mt-20">
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Valid Passport or National ID</h2>
-          <p>Ensure your Italian passport or national ID card is valid for the duration of your stay in Switzerland.</p>
+          <p>Ensure your passport or national ID card is valid for the duration of your stay in Switzerland.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Residence Permit</h2>
@@ -30,7 +30,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Zurich, Geneva, and Basel, so it’s advisable to start looking early.</p>
+          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Zurich, Geneva, and Basel, so it&apos;s advisable to start looking early.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
@@ -66,7 +66,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
@@ -81,8 +81,8 @@ function Page() {
           <p>Familiarize yourself with the Swiss social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license. EU licenses are generally recognized in Switzerland, but you may need to exchange it for a Swiss one after a year.</p>
+          <h2 className="font-bold">Driver&apos;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver&apos;s license. EU licenses are generally recognized in Switzerland, but you may need to exchange it for a Swiss one after a year.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language Courses:</h2>
