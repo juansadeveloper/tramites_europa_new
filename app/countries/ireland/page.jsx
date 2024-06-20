@@ -91,21 +91,21 @@ function Page() {
     <main className="min-h-[75vh] py-20 flex flex-col justify-center items-center">
       <h1 className="font-bold mb-10 text-xl">Ireland</h1>
       <div className="max-w-[800px] px-5 py-10 bg-[#FAFAFA] transition duration-300 hover:shadow-xl border w-full flex flex-col justify-center items-center">
-        <div className="flex max-md:flex-col max-md:gap-0 justify-center gap-16 items-center w-full border">
+        <div className="flex max-md:flex-col max-md:gap-0 justify-between items-center w-full max-w-[600px] border">
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'prerequisites' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'prerequisites' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('prerequisites')}
           >
             Prerequisites
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'steps' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'steps' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('steps')}
           >
             Steps to follow
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'recommendations' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'recommendations' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('recommendations')}
           >
             Recommendations
