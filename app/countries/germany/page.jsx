@@ -12,39 +12,31 @@ function Page() {
           <p>Ensure your Italian passport or national ID card is valid for the duration of your stay.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Registration with Local Authorities</h2>
-          <p>While there is no mandatory requirement to register with local authorities for EU citizens, it is advisable to inform them of your residence for administrative purposes.</p>
-        </div>
-        <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Personal Public Service (PPS) Number</h2>
-          <p>You need to apply for a Personal Public Service (PPS) number, which is essential for tax, social welfare, public services, and employment purposes. You can apply for a PPS number at a Social Welfare office.</p>
+          <h2 className="font-bold">Registration with Local Authorities (Anmeldung)</h2>
+          <p>Within 14 days of finding permanent accommodation, you must register your address at the local registration office (Einwohnermeldeamt or Bürgeramt). This process is known as "Anmeldung". Upon registration, you will receive a confirmation of registration (Anmeldebestätigung) and a tax identification number (Steueridentifikationsnummer).</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Health Insurance</h2>
-          <p>While public healthcare is available, it is advisable to have private health insurance. If you are employed, you may be covered by your employer's health insurance plan.</p>
+          <p>Health insurance is mandatory in Germany. If you are employed, you will be enrolled in the public health insurance system (gesetzliche Krankenversicherung) through your employer. If you are not employed or prefer private insurance, you need to arrange for private health insurance coverage.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Employment</h2>
-          <p>As an EU citizen, you are free to work without needing a work permit. Employers will require your PPS number and proof of identity.</p>
-        </div>
-        <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Dublin, so it’s advisable to start looking early.</p>
+          <p>As an EU citizen, you are free to work without needing a work permit. Employers will require your tax identification number and proof of health insurance.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
-          <p>Opening an Irish bank account is recommended for salary payments and everyday transactions. You will need a PPS number, a valid ID, and proof of address to open an account.</p>
+          <p>Opening a German bank account is recommended for salary payments and everyday transactions. You will need a valid ID, proof of address, and the Anmeldebestätigung to open an account.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language</h2>
-          <p>English is the primary language spoken in Ireland, so proficiency in English is important for daily life and work.</p>
+          <p>While many Germans speak English, proficiency in German is highly beneficial for daily life, integration, and job opportunities.</p>
         </div>
       </div>
     ),
     steps: (
-      <div className="flex flex-col items-center gap-5 w-full px-5 md:px-20 mt-20">
+      <div className="flex flex-col items-center gap-5 w-full  md:px-20 mt-20">
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Arrive in Ireland:</h2>
+          <h2 className="font-bold">Arrive in Germany:</h2>
           <p>With your valid passport or ID.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
@@ -52,16 +44,20 @@ function Page() {
           <p>Secure a place to live. Temporary accommodation may be necessary initially.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Apply for a PPS Number:</h2>
-          <p>As soon as possible after arriving. Visit the Social Welfare office with your ID and proof of address.</p>
+          <h2 className="font-bold">Register Your Address (Anmeldung):</h2>
+          <p>Within 14 days of moving into permanent accommodation, register at the local registration office.</p>
+        </div>
+        <div className="bg-white p-4 rounded shadow w-full">
+          <h2 className="font-bold">Apply for a Tax Identification Number:</h2>
+          <p>You will receive this automatically after registering your address.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Get Health Insurance:</h2>
-          <p>If employed, check with your employer about health insurance coverage; otherwise, arrange private health insurance.</p>
+          <p>If employed, you will be automatically enrolled in public health insurance; otherwise, arrange for private health insurance.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Open a Bank Account:</h2>
-          <p>Using your PPS number, ID, and proof of address.</p>
+          <p>Using your ID, proof of address, and Anmeldebestätigung.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
@@ -70,18 +66,22 @@ function Page() {
       </div>
     ),
     recommendations: (
-      <div className="flex flex-col items-center gap-5 w-full px-5 md:px-20 mt-20">
+      <div className="flex flex-col items-center gap-5 w-full  md:px-20 mt-20">
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Taxes:</h2>
-          <p>Understand the Irish tax system and ensure you register with the Revenue Commissioners.</p>
+          <p>Understand the German tax system and ensure you register with the tax authorities (Finanzamt).</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Social Security:</h2>
-          <p>Familiarize yourself with the Irish social security system, including benefits and pension schemes.</p>
+          <p>Familiarize yourself with the German social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Driver’s License:</h2>
           <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license.</p>
+        </div>
+        <div className="bg-white p-4 rounded shadow w-full">
+          <h2 className="font-bold">Language Courses:</h2>
+          <p>Consider enrolling in German language courses to improve your language skills, which can aid in integration and job prospects.</p>
         </div>
       </div>
     )
@@ -89,23 +89,23 @@ function Page() {
 
   return (
     <main className="min-h-[75vh] py-20 flex flex-col justify-center items-center">
-      <h1 className="font-bold mb-10 text-xl">Ireland</h1>
+      <h1 className="font-bold mb-10 text-xl">Germany</h1>
       <div className="max-w-[800px] px-5 py-10 bg-[#FAFAFA] transition duration-300 hover:shadow-xl border w-full flex flex-col justify-center items-center">
-        <div className="flex max-md:flex-col max-md:gap-0 justify-center gap-16 items-center w-full border">
+        <div className="flex max-md:flex-col max-md:gap-0 justify-between  items-center w-full max-w-[600px] border">
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'prerequisites' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'prerequisites' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('prerequisites')}
           >
             Prerequisites
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'steps' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'steps' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('steps')}
           >
             Steps to follow
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 ${activeSection === 'recommendations' ? 'font-bold bg-white w-full text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'recommendations' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('recommendations')}
           >
             Recommendations
