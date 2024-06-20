@@ -44,10 +44,11 @@ const FAQ = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+      <h2 className="text-2xl font-bold text-center mb-2">Frequently Asked Questions</h2>
+      <h2 className="text-2xl font-bold text-center mb-8">ABOUT WORKING AND LIVING IN EUROPE</h2>
       <div className="rounded-lg shadow-md max-w-[800px] mx-auto">
         {faqs.map((faq, index) => (
-          <div key={index} className="bg-white border-b py-2 px-2 rounded-t-lg rounded-b-lg hover:bg-background">
+          <div key={index} className="bg-white border-b py-2 px-2 rounded-t-lg rounded-b-lg hover:bg-neutral-100">
             <button
               className="w-full px-4 py-2 text-left text-lg font-medium text-gray-800 focus:outline-none"
               onClick={() => toggleFAQ(index)}
