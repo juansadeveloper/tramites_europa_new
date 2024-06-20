@@ -1,6 +1,9 @@
 "use client";
 import React, { useState } from 'react';
 
+import { RiArrowDownSLine } from "react-icons/ri";
+import { RiArrowUpSLine } from "react-icons/ri";
+
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -49,9 +52,9 @@ const FAQ = () => {
               className="w-full px-4 py-2 text-left text-lg font-medium text-gray-800 focus:outline-none"
               onClick={() => toggleFAQ(index)}
             >
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center gap-3">
                 <span>{faq.question}</span>
-                <span>{activeIndex === index ? '-' : '+'}</span>
+                <span>{activeIndex === index ? <RiArrowUpSLine /> : <RiArrowDownSLine /> }</span>
               </div>
             </button>
             {activeIndex === index && (
