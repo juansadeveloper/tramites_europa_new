@@ -76,8 +76,8 @@ function Page() {
           <p>Familiarize yourself with the German social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license.</p>
+          <h2 className="font-bold">Driver&rsquo;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver&rsquo;s license.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language Courses:</h2>

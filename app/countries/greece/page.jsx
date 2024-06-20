@@ -25,7 +25,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Athens, so it’s advisable to start looking early.</p>
+          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Athens, so it&rsquo;s advisable to start looking early.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
@@ -92,8 +92,8 @@ function Page() {
           <p>Familiarize yourself with the Greek social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your EU driver’s license. EU licenses are generally recognized in Greece.</p>
+          <h2 className="font-bold">Driver&rsquo;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your EU driver&rsquo;s license. EU licenses are generally recognized in Greece.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language Courses:</h2>

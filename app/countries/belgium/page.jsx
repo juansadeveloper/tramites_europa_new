@@ -13,7 +13,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Registration with Local Authorities</h2>
-          <p>If you plan to stay in Belgium for more than three months, you must register with the local municipal administration (commune/gemeente) within eight days of your arrival. You will receive a foreigner’s identity card.</p>
+          <p>If you plan to stay in Belgium for more than three months, you must register with the local municipal administration (commune/gemeente) within eight days of your arrival. You will receive a foreigner&rsquo;s identity card.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Health Insurance</h2>
@@ -21,11 +21,11 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Employment</h2>
-          <p>As an EU citizen, you do not need a work permit to work in Belgium. Employers may ask for proof of identity and your foreigner’s identity card.</p>
+          <p>As an EU citizen, you do not need a work permit to work in Belgium. Employers may ask for proof of identity and your foreigner&rsquo;s identity card.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Brussels, so it’s advisable to start looking early.</p>
+          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Brussels, so it&rsquo;s advisable to start looking early.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
@@ -61,7 +61,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&rsquo;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
@@ -76,8 +76,8 @@ function Page() {
           <p>Familiarize yourself with the Belgian social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license. EU licenses are generally recognized in Belgium.</p>
+          <h2 className="font-bold">Driver&rsquo;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver&rsquo;s license. EU licenses are generally recognized in Belgium.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language Courses:</h2>

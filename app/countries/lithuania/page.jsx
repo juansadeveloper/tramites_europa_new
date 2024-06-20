@@ -69,7 +69,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
@@ -84,8 +84,8 @@ function Page() {
           <p>Familiarize yourself with the Lithuanian social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your EU driver’s license. EU licenses are generally recognized in Lithuania.</p>
+          <h2 className="font-bold">Driver&apos;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your EU driver&apos;s license. EU licenses are generally recognized in Lithuania.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Language Courses:</h2>
@@ -126,3 +126,4 @@ function Page() {
 }
 
 export default Page;
+

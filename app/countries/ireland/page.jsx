@@ -21,7 +21,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Health Insurance</h2>
-          <p>While public healthcare is available, it is advisable to have private health insurance. If you are employed, you may be covered by your employer's health insurance plan.</p>
+          <p>While public healthcare is available, it is advisable to have private health insurance. If you are employed, you may be covered by your employer&apos;s health insurance plan.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Employment</h2>
@@ -29,7 +29,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Housing</h2>
-          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Dublin, so it’s advisable to start looking early.</p>
+          <p>Arrange accommodation before or soon after your arrival. The housing market can be competitive, particularly in larger cities like Dublin, so it&apos;s advisable to start looking early.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Bank Account</h2>
@@ -65,7 +65,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
@@ -80,8 +80,8 @@ function Page() {
           <p>Familiarize yourself with the Irish social security system, including benefits and pension schemes.</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
-          <h2 className="font-bold">Driver’s License:</h2>
-          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver’s license.</p>
+          <h2 className="font-bold">Driver&rsquo;s License:</h2>
+          <p>If you plan to drive, check the regulations for using or exchanging your Italian driver&rsquo;s license.</p>
         </div>
       </div>
     )
