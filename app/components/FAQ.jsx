@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 
 const FAQ = () => {
@@ -42,11 +42,11 @@ const FAQ = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
-      <div className=" rounded-lg shadow-md max-w-[800px] mx-auto">
+      <div className="rounded-lg shadow-md max-w-[800px] mx-auto">
         {faqs.map((faq, index) => (
           <div key={index} className="bg-white border-b py-2 px-2 rounded-t-lg rounded-b-lg hover:bg-background">
             <button
-              className="w-full px-4 py-2 text-left text-lg font-medium text-gray-800 focus:outline-none "
+              className="w-full px-4 py-2 text-left text-lg font-medium text-gray-800 focus:outline-none"
               onClick={() => toggleFAQ(index)}
             >
               <div className="flex justify-between items-center">
@@ -55,8 +55,8 @@ const FAQ = () => {
               </div>
             </button>
             {activeIndex === index && (
-              <div className="px-4 py-2 text-gray-700 border-t">
-                {faq.answer}
+              <div className="px-4 py-2 text-gray-700">
+                {faq.answer.replace(/'/g, '&apos;')}
               </div>
             )}
           </div>
