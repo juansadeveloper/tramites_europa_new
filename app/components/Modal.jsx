@@ -14,7 +14,7 @@ const Modal = ({ showModal, setShowModal }) => {
                 <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
                   <div className='flex flex-col items-start'>
                     <h3 className="text-xl font-bold md:text-2xl">Thanks for your feedback!</h3>
-                    <p className='ml-1 mt-2 text-sm md:text-base text-neutral-500'>It's very helpful for our project improvement.</p>
+                    <p className='ml-1 mt-2 text-sm md:text-base text-neutral-500'>It&apos;s very helpful for our project improvement.</p>
                   </div>
                   <div onClick={() => setShowModal(false)}><IoClose size={24} className='cursor-pointer text-xl bg-neutral-100 hover:bg-neutral-300 p-1 rounded-full'/></div>
                 </div>
