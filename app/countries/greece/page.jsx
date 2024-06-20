@@ -77,7 +77,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),

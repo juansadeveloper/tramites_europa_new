@@ -13,7 +13,7 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Registration with Local Authorities (Anmeldung)</h2>
-          <p>Within 14 days of finding permanent accommodation, you must register your address at the local registration office (Einwohnermeldeamt or Bürgeramt). This process is known as "Anmeldung". Upon registration, you will receive a confirmation of registration (Anmeldebestätigung) and a tax identification number (Steueridentifikationsnummer).</p>
+          <p>Within 14 days of finding permanent accommodation, you must register your address at the local registration office (Einwohnermeldeamt or Bürgeramt). This process is known as &quot;Anmeldung&quot;. Upon registration, you will receive a confirmation of registration (Anmeldebestätigung) and a tax identification number (Steueridentifikationsnummer).</p>
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Health Insurance</h2>
@@ -34,7 +34,7 @@ function Page() {
       </div>
     ),
     steps: (
-      <div className="flex flex-col items-center gap-5 w-full  md:px-20 mt-20">
+      <div className="flex flex-col items-center gap-5 w-full md:px-20 mt-20">
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Arrive in Germany:</h2>
           <p>With your valid passport or ID.</p>
@@ -61,12 +61,12 @@ function Page() {
         </div>
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Seek Employment:</h2>
-          <p>If you haven't secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
+          <p>If you haven&apos;t secured a job beforehand, start applying. Utilize job websites, networking, and recruitment agencies.</p>
         </div>
       </div>
     ),
     recommendations: (
-      <div className="flex flex-col items-center gap-5 w-full  md:px-20 mt-20">
+      <div className="flex flex-col items-center gap-5 w-full md:px-20 mt-20">
         <div className="bg-white p-4 rounded shadow w-full">
           <h2 className="font-bold">Taxes:</h2>
           <p>Understand the German tax system and ensure you register with the tax authorities (Finanzamt).</p>
@@ -91,21 +91,21 @@ function Page() {
     <main className="min-h-[75vh] py-20 flex flex-col justify-center items-center">
       <h1 className="font-bold mb-10 text-xl">Germany</h1>
       <div className="max-w-[800px] px-5 py-10 bg-[#FAFAFA] transition duration-300 hover:shadow-xl border w-full flex flex-col justify-center items-center">
-        <div className="flex max-md:flex-col max-md:gap-0 justify-between  items-center w-full max-w-[600px] border">
+        <div className="flex max-md:flex-col max-md:gap-0 justify-between items-center w-full max-w-[600px] border">
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'prerequisites' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'prerequisites' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('prerequisites')}
           >
             Prerequisites
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'steps' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'steps' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('steps')}
           >
             Steps to follow
           </h1>
           <h1
-            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'recommendations' ? 'font-bold bg-white  max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
+            className={`cursor-pointer text-sm md:text-lg py-3 md:px-5 ${activeSection === 'recommendations' ? 'font-bold bg-white max-md:w-full max-md:text-center' : 'hover:text-blue'}`}
             onClick={() => setActiveSection('recommendations')}
           >
             Recommendations
