@@ -12,7 +12,7 @@ function Hero() {
         <p className='font-bold'>We present the information in a simple and direct way, without advertisements or distractions so you can save time in your search.</p>
       </div>
       <Link href="/countries">
-        <button className='mt-8 md:mt-10 py-3 px-6 text-blue border border-blue hover:text-darkwhite hover:bg-blue transition-colors duration-300'>
+        <button className='mt-8 md:mt-10 py-3 px-6 text-blue border border-blue hover:text-darkwhite hover:bg-blue transition-colors duration-300 rounded'>
           Choose Country
         </button>
       </Link>
