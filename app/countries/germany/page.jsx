@@ -89,7 +89,7 @@ function Page() {
 
   return (
     <main className="min-h-[75vh] py-20 flex flex-col justify-center items-center">
-      <h1 className="font-bold mb-10 text-xl">Germany</h1>
+      <h1 className="font-bold mb-10 text-xl">Germany 🇩🇪</h1>
       <div className="max-w-[800px] px-5 py-10 bg-[#FAFAFA] transition duration-300 hover:shadow-xl border w-full flex flex-col justify-center items-center">
         <div className="flex max-md:flex-col max-md:gap-0 justify-between items-center w-full max-w-[600px] border">
           <h1
